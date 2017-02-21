@@ -1,8 +1,20 @@
 # Modbus
-Modbus Communication
+Modbus Communication on RPi model 3
 
-This version connect to 1 modbus TCP slave device
+# Client
 
-Continuously reading 5 Holding Registers
+Connect to 1 modbus TCP slave device
 
-Write maximum of 10 Registers
+Read/Write Holding Registers
+
+Synchronous version
+
+# Test
+
+Read constantly 5 Registers
+
+Write maximum of 10 Registers when requested
+
+# Installing
+
+pip Install pymodbus --upgrade
