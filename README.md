@@ -11,6 +11,8 @@ Synchronous version
 
 # Test
 
+PyModbus_Master.py
+
 Read constantly 5 Registers
 
 Write maximum of 10 Registers when requested
